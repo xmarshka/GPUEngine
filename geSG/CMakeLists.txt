@@ -21,6 +21,7 @@ set(SG_INCLUDES
    ${HEADER_PATH}/AnimationKeyFrame.h
    ${HEADER_PATH}/AnimationManager.h
    ${HEADER_PATH}/AttributeDescriptor.h
+   ${HEADER_PATH}/Bone.h
    ${HEADER_PATH}/BoundingSphere.h
    ${HEADER_PATH}/BoundingVolume.h
    ${HEADER_PATH}/DefaultImage.h
@@ -37,13 +38,19 @@ set(SG_INCLUDES
    ${HEADER_PATH}/MeshTriangleIterators.h
    ${HEADER_PATH}/Model.h
    ${HEADER_PATH}/Node.h
+   ${HEADER_PATH}/PositionAttitudeTransform.h
    ${HEADER_PATH}/Ray.h
    ${HEADER_PATH}/RayAABBIntersector.h
    ${HEADER_PATH}/RayMeshIntersector.h
    ${HEADER_PATH}/RaySphereIntersector.h
    ${HEADER_PATH}/RayTriangleIntersector.h
+   ${HEADER_PATH}/RigModel.h
    ${HEADER_PATH}/Sampler.h
    ${HEADER_PATH}/Scene.h
+   ${HEADER_PATH}/SkeletalAnimationChannel.h
+   ${HEADER_PATH}/SkeletalAnimationMixer.h
+   ${HEADER_PATH}/SkeletalTransform.h
+   ${HEADER_PATH}/Skeleton.h
    ${HEADER_PATH}/Transform.h
 )
 
@@ -61,6 +68,11 @@ set(SG_SOURCES
    ${SRC_PATH}/RayMeshIntersector.cpp
    ${SRC_PATH}/RaySphereIntersector.cpp
    ${SRC_PATH}/RayTriangleIntersector.cpp
+   ${SRC_PATH}/RigModel.cpp
+   ${SRC_PATH}/SkeletalAnimationChannel.cpp
+   ${SRC_PATH}/SkeletalAnimationMixer.cpp
+   ${SRC_PATH}/SkeletalTransform.cpp
+   ${SRC_PATH}/Skeleton.cpp
 )
 
 ################################################

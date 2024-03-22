@@ -33,6 +33,8 @@ namespace ge
          static std::string binormal;
          static std::string indices;
          static std::string texcoord;
+         static std::string boneIDs;
+         static std::string boneWeights;
       };
    }
 }

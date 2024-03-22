@@ -31,7 +31,7 @@ struct AttributeDescriptor
       }
    }
 
-   idlist(Semantic, unknown, position, normal, color, texcoord, indices, tangent, binormal);
+   idlist(Semantic, unknown, position, normal, color, texcoord, indices, tangent, binormal, boneIDs, boneWeights);
 
    int size = 0; ///< size of buffer AttributeDescriptor::data in bytes
    unsigned numComponents = 0; ///< number of vector component
